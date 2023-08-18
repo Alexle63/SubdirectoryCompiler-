@@ -5,17 +5,17 @@ In the unlikely case any duplicates are found, they will be placed in a folder n
 
 Each file will be renamed to contain the folder name in the front of the file. For instance, the following files would be compiled as follows:
 
-Original file: "./Cats/Persian.jpg"
-Compiled file: "./# Compiled/Cats Persian.jpg"
+- Original file: "./Cats/Persian.jpg"
+- Compiled file: "./# Compiled/Cats Persian.jpg"
 
-Original file: "./Fruits/Apple.jpg"
-Compiled file: "./# Compiled/Fruits Apple.jpg"
+- Original file: "./Fruits/Apple.jpg"
+- Compiled file: "./# Compiled/Fruits Apple.jpg"
 
 Any duplicates will be compiled as follows:
 
-Duplicate #1 file: "./Cats/Apple.jpg"
-Duplicate #2 file: "./Fruits/Apple.jpg"
-Compiled file #1: "./# Duplicates/Apple (1).jpg"
-Compiled file #1: "./# Duplicates/Apple (2).jpg"
+- Duplicate #1 file: "./Cats/Apple.jpg"
+- Duplicate #2 file: "./Fruits/Apple.jpg"
+- Compiled file #1: "./# Duplicates/Apple (1).jpg"
+- Compiled file #1: "./# Duplicates/Apple (2).jpg"
 
 No duplicate files will be placed in the "# Compiled" folder, unless done so by the user manually (after any disputes have been resolved).
