@@ -9,14 +9,16 @@ def rename(path,addt):
 
 files = os.listdir('.')
 folders = []
+
 try:
     os.rmdir("# Compiled")
     os.rmdir("# Duplicates")
 except:
     print("Default folders not generated, generating now")
+
 os.mkdir("# Compiled")
 os.mkdir("# Duplicates")
-exit()
+
 compiled = os.path.join(os.getcwd(), "# Compiled")
 dups = os.path.join(os.getcwd(), "# Duplicates")
 
