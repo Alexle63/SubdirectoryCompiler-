@@ -16,6 +16,6 @@ Any duplicates will be compiled as follows:
 - Duplicate #1 file: "./Cats/Apple.jpg"
 - Duplicate #2 file: "./Fruits/Apple.jpg"
 - Compiled file #1: "./# Duplicates/Apple (1).jpg"
-- Compiled file #1: "./# Duplicates/Apple (2).jpg"
+- Compiled file #2: "./# Duplicates/Apple (2).jpg"
 
 No duplicate files will be placed in the "# Compiled" folder, unless done so by the user manually (after any disputes have been resolved).
